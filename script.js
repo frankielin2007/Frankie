@@ -1,4 +1,4 @@
-cons now = new Date();
+const now = new Date();
 const hours = now.getHours();
 let greeting = "";
 
