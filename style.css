@@ -90,3 +90,110 @@ header img {
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.10);
     margin-top: 16px;
 }
+
+#Projects,
+#Experiences {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.projects-content,
+.experiences-content {
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+    max-width: none;
+    width: 100%;
+    color: inherit;
+    background-clip: initial;
+    border: none;
+    margin-bottom: 0;
+    transition: none;
+}
+
+.projects-content {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08), 0 1.5px 4px rgba(0, 0, 0, 0.10);
+    padding: 32px 24px;
+    max-width: 700px;
+    width: 100%;
+    color: #eceaea;
+    background-clip: padding-box;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    margin-bottom: 24px;
+    transition: none;
+}
+
+.projects-content:hover {
+    transform: none;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08), 0 1.5px 4px rgba(0, 0, 0, 0.10);
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.25);
+}
+
+.experience-cards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.experience-card {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08), 0 1.5px 4px rgba(0, 0, 0, 0.10);
+    padding: 32px 24px;
+    min-width: 220px;
+    max-width: 280px;
+    flex: 1 1 220px;
+    transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+    color: #222;
+    background-clip: padding-box;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.experience-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.16), 0 3px 8px rgba(0, 0, 0, 0.18);
+    background: rgba(255, 255, 255, 0.25);
+    border-color: orange;
+}
+
+#Experiences,
+#Projects {
+    color: white;
+}
+
+.projects-content,
+.experiences-content,
+.project-cards,
+.experience-cards,
+.project-card,
+.experience-card {
+    color: white;
+}
+
+#About {
+    max-width: 700px;
+    margin: 32px auto;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08), 0 1.5px 4px rgba(0, 0, 0, 0.10);
+    padding: 32px 24px;
+    color: white;
+    transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    /* Added border like experience boxes */
+}
+
+#About:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.16), 0 3px 8px rgba(0, 0, 0, 0.18);
+    background: rgba(255, 255, 255, 0.25);
+    border-color: orange;
+}
